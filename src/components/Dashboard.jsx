@@ -167,7 +167,7 @@ const Dashboard = ({isSidebarOpen , toggleSidebar}) => {
                 Lead Sources
               </h2>
               <div className="flex ">
-                <div className="w-1/3 lg:pr-6 flex flex-col justify-center relative">
+                <div className="w-1/3 p-10 flex flex-col justify-center relative">
                   <ul className="text-left space-y-2 text-sm">
                     <li className="flex items-center">
                       <span className="inline-block w-4 h-4 mr-2 bg-[#7692FF]"></span>
@@ -187,7 +187,7 @@ const Dashboard = ({isSidebarOpen , toggleSidebar}) => {
                     </li>
                   </ul>
                 </div>
-                <div className="h-60 absolute -right-5">
+                <div className="h-60 absolute -right-5 lg:right-24">
                   <Pie
                     data={{
                       labels: [
